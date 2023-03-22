@@ -18,10 +18,10 @@ namespace STM.Controllers
         }
 
         [HttpGet(Name = "GetOTP")]
-        public async Task<OTP> Get()
+        public async Task<OTP> Get(String? name)
         {
             using var client = new HttpClient();
-            var result = await client.GetStringAsync("https://catfact.ninja/fact");
+            var result = await client.GetStringAsync($"https://api.nationalize.io?name={name}");
             Console.WriteLine(result);
             dynamic json = JsonConvert.DeserializeObject(result);
             return new OTP
