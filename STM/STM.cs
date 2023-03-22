@@ -1,6 +1,6 @@
 namespace STM
 {
-    public class OTP
+    public class STM
     {
         public int DurationTotal { get; set; }
         public int DurationWalk { get; set; }

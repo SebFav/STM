@@ -8,17 +8,17 @@ namespace STM.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class OTPController : ControllerBase
+    public class STMController : ControllerBase
     {
-        private readonly ILogger<OTPController> _logger;
+        private readonly ILogger<STMController> _logger;
 
-        public OTPController(ILogger<OTPController> logger)
+        public STMController(ILogger<STMController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetOTP")]
-        public async Task<OTP> Get(Double startLAT, Double startLONG, Double endLAT, Double endLONG)
+        [HttpGet(Name = "GetSTM")]
+        public async Task<STM> Get(Double startLAT, Double startLONG, Double endLAT, Double endLONG)
         {
             using var client = new HttpClient();
             var currentTime = DateTime.Now.ToString("h:mmtt 'GMT-4'");
@@ -39,7 +39,7 @@ namespace STM.Controllers
                 if (item.mode == "SUBWAY") totalMetro += item.duration.ToObject<int>();
                 if (item.mode == "TRAIN") totalTrain += item.duration.ToObject<int>();
             }
-            return new OTP
+            return new STM
             {
                 DurationTotal = json.plan.itineraries[0].duration,
                 DurationWalk = totalWalk,
