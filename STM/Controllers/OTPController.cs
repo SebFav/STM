@@ -26,7 +26,7 @@ namespace STM.Controllers
             dynamic json = JsonConvert.DeserializeObject(result);
             return new OTP
             {
-                RandomCatFact = json.fact
+                Country = json.country[0].country_id
             };
         }
     }
