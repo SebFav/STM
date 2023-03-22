@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  stm:
+    image: ${DOCKER_REGISTRY-}stm
+    build:
+      context: .
+      dockerfile: STM/Dockerfile
+    ports:
+        - "49159:80"

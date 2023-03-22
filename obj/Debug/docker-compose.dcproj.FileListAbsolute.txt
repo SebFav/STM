@@ -1,0 +1,14 @@
+G:\ReposSchool\STM\STM\bin\Debug\STM.deps.json
+G:\ReposSchool\STM\STM\bin\Debug\STM.runtimeconfig.json
+G:\ReposSchool\STM\STM\bin\Debug\appsettings.Development.json
+G:\ReposSchool\STM\STM\bin\Debug\appsettings.json
+G:\ReposSchool\STM\STM\bin\Debug\STM.exe
+G:\ReposSchool\STM\STM\bin\Debug\STM.dll
+G:\ReposSchool\STM\STM\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\ReposSchool\STM\STM\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+G:\ReposSchool\STM\STM\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\ReposSchool\STM\STM\bin\Debug\Microsoft.OpenApi.dll
+G:\ReposSchool\STM\STM\bin\Debug\STM.pdb
+G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.CopyComplete
