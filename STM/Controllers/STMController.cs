@@ -18,12 +18,19 @@ namespace STM.Controllers
         }
 
         [HttpGet(Name = "GetSTM")]
-        public async Task<STM> Get(Double startLAT, Double startLONG, Double endLAT, Double endLONG)
+        public async Task<STM> Get(String origin, String destination)
         {
             using var client = new HttpClient();
+
+            var resultOrigin = await client.GetStringAsync($"http://portainer.10.194.33.169.nip.io:49772/Route/GetAddress/{origin}");
+            Console.WriteLine(resultOrigin);
+            dynamic jsonOrigin = JsonConvert.DeserializeObject(resultOrigin);
+            var resultDest = await client.GetStringAsync($"http://portainer.10.194.33.169.nip.io:49772/Route/GetAddress/{destination}");
+            Console.WriteLine(resultDest);
+            dynamic jsonDest = JsonConvert.DeserializeObject(resultDest);
             var currentTime = DateTime.Now.ToString("h:mmtt 'GMT-4'");
             var currentDate = DateTime.Now.ToString("MM-dd-yyyy");
-            var result = await client.GetStringAsync($"http://3.97.194.226:8080/otp/routers/default/plan?fromPlace={startLAT},{startLONG}&toPlace={endLAT},{endLONG}&time={currentTime}&date={currentDate}&mode=TRANSIT,WALK&showIntermediateStops=true&locale=en&walkReluctance=5&additionalParameters=walkReluctance");
+            var result = await client.GetStringAsync($"http://3.97.194.226:8080/otp/routers/default/plan?fromPlace={jsonOrigin.position.lat},{jsonOrigin.position.lon}&toPlace={jsonDest.position.lat},{jsonDest.position.lon}&time={currentTime}&date={currentDate}&mode=TRANSIT,WALK&showIntermediateStops=true&locale=en&walkReluctance=5&additionalParameters=walkReluctance");
             Console.WriteLine(result);
             Console.WriteLine(currentTime);
             Console.WriteLine(currentDate);
