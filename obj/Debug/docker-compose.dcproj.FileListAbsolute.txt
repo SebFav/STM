@@ -12,3 +12,4 @@ G:\ReposSchool\STM\STM\bin\Debug\STM.pdb
 G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 G:\ReposSchool\STM\STM\obj\Debug\docker-compose.dcproj.CopyComplete
+G:\ReposSchool\STM\STM\bin\Debug\Newtonsoft.Json.dll

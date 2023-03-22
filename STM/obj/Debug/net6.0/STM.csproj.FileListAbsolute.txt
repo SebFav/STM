@@ -30,3 +30,4 @@ G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\refint\STM.dll
 G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\STM.pdb
 G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\STM.genruntimeconfig.cache
 G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\ref\STM.dll
+G:\ReposSchool\STM\STM\STM\bin\Debug\net6.0\Newtonsoft.Json.dll

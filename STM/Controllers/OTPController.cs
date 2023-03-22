@@ -1,4 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace STM.Controllers
 {
@@ -14,13 +18,16 @@ namespace STM.Controllers
         }
 
         [HttpGet(Name = "GetOTP")]
-        public IEnumerable<OTP> Get()
+        public async Task<OTP> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new OTP
+            using var client = new HttpClient();
+            var result = await client.GetStringAsync("https://catfact.ninja/fact");
+            Console.WriteLine(result);
+            dynamic json = JsonConvert.DeserializeObject(result);
+            return new OTP
             {
-                Time = index
-            })
-            .ToArray();
+                RandomCatFact = json.fact
+            };
         }
     }
 }
