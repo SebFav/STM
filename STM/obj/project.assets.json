@@ -357,19 +357,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hugo\\.nuget\\packages\\": {}
+    "C:\\Users\\Sebastien\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ReposSchool\\STM\\STM\\STM\\STM.csproj",
+      "projectUniqueName": "E:\\pLocal Drive\\Genie_Logiciel\\LOG430\\Lab\\STM\\STM\\STM.csproj",
       "projectName": "STM",
-      "projectPath": "G:\\ReposSchool\\STM\\STM\\STM\\STM.csproj",
-      "packagesPath": "C:\\Users\\Hugo\\.nuget\\packages\\",
-      "outputPath": "G:\\ReposSchool\\STM\\STM\\STM\\obj\\",
+      "projectPath": "E:\\pLocal Drive\\Genie_Logiciel\\LOG430\\Lab\\STM\\STM\\STM.csproj",
+      "packagesPath": "C:\\Users\\Sebastien\\.nuget\\packages\\",
+      "outputPath": "E:\\pLocal Drive\\Genie_Logiciel\\LOG430\\Lab\\STM\\STM\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sebastien\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -427,7 +432,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

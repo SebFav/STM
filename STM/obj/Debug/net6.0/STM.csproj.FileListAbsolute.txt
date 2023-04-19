@@ -31,3 +31,36 @@ G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\STM.pdb
 G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\STM.genruntimeconfig.cache
 G:\ReposSchool\STM\STM\STM\obj\Debug\net6.0\ref\STM.dll
 G:\ReposSchool\STM\STM\STM\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\appsettings.Development.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\appsettings.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\STM.exe
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\STM.deps.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\STM.runtimeconfig.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\STM.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\STM.pdb
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.csproj.AssemblyReference.cache
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.GeneratedMSBuildEditorConfig.editorconfig
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.AssemblyInfoInputs.cache
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.AssemblyInfo.cs
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.csproj.CoreCompileInputs.cache
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.MvcApplicationPartsAssemblyInfo.cs
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.MvcApplicationPartsAssemblyInfo.cache
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets\msbuild.STM.Microsoft.AspNetCore.StaticWebAssets.props
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets\msbuild.build.STM.props
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.STM.props
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.STM.props
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets.pack.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets.build.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\staticwebassets.development.json
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\scopedcss\bundle\STM.styles.css
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.csproj.CopyComplete
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\refint\STM.dll
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.pdb
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\STM.genruntimeconfig.cache
+E:\pLocal Drive\Genie_Logiciel\LOG430\Lab\STM\STM\obj\Debug\net6.0\ref\STM.dll
